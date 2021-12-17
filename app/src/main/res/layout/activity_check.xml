@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/coffee"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".Check">
+
+    <TextView
+        android:id="@+id/c_tt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="아메리카노 유형을 고르시오"
+        android:textAlignment="textStart"
+        android:textColor="#FFEB3B"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <RadioGroup
+        android:id="@+id/c_rg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/c_i"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ice"
+            android:textSize="14sp" />
+
+        <RadioButton
+            android:id="@+id/c_h"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Hot"
+            android:textSize="14sp" />
+
+    </RadioGroup>
+
+</LinearLayout>

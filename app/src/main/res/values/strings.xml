@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Intent 연습중</string>
+    <string name="btn_homepage">Open Homepage</string>
+    <string name="btn_call">Check</string>
+    <string name="btn_gallery">Open gallery</string>
+    <string name="btn_finish">finish</string>
+</resources>
